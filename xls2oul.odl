@@ -1,0 +1,42 @@
+// xls2oul.odl : type library source for xls2oul.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (xls2oul.tlb).
+
+[ uuid(2F450378-3050-4284-88D4-CFF5737BB123), version(1.0) ]
+library Xls2oul
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CXls2oulDoc
+	
+	[ uuid(F203F1D3-2F2A-4C9E-A169-EED0C5F825D9) ]
+	dispinterface IXls2oul
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CXls2oulDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CXls2oulDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CXls2oulDoc
+	
+	[ uuid(6770C287-5B05-438D-B852-377249FE2D35) ]
+	coclass Xls2oul
+	{
+		[default] dispinterface IXls2oul;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
